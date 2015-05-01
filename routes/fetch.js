@@ -60,7 +60,7 @@ router.get('/:query', function(req, res, next) {
 
 						card['downloadlink'] = 'http://downloader-apk.com/' + dlink;
 						
-						items.push(card);	
+						items[i] = card;	
 
 						if (--_lock === 0)
 							fillRes();
