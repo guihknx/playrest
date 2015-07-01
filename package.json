@@ -4,7 +4,8 @@
   "description": "fetch apk files from google play search",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start" : "node app.js"
   },
   "repository": {
     "type": "git",
