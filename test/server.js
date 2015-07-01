@@ -53,7 +53,6 @@ describe('GET /fetch', function(){
 			});
 
 			res.on('end', function () {
-				console.log('mylength',Object.keys( JSON.parse( data ) ).length);
 				Object.keys( JSON.parse( data ) ).length.should.not.equal(0);
 				done();
 			});
