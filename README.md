@@ -13,7 +13,7 @@ $ node app.js
 ```
 
 
-### Contribute
+### Contributing
 * fork this pproject
 * create new branch ``git checkout -b new-feature``
 * commit your changes
