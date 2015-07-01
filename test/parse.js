@@ -17,6 +17,8 @@ describe('Parse lib', function(){
 			res.on('end', function () {
 				var items = parse(data);
 				( items.getItems() ).should.be.an.Object;
+				Object.keys( items.getItems() ).length.should.be.equal(0);
+
 				done();
 			});
 		});
