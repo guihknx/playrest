@@ -20,7 +20,8 @@ $ node app.js
 * open a pull request
 ```
 
-####Tests
+
+#### Tests
 ```sh
 $ mocha
 ```
