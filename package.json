@@ -1,0 +1,25 @@
+{
+  "name": "playrest",
+  "version": "1.0.0",
+  "description": "fetch apk files from google play search",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/guih/playrest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/guih/playrest#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.1"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.58.0",
+    "router": "^1.1.1"
+  }
+}
