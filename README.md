@@ -12,16 +12,15 @@ $ npm install
 $ node app.js
 ```
 
+
+### Tests
+```sh
+$ mocha
+```
 ### Contribute
 * fork this pproject
 * create new branch ``git checkout -b new-feature``
 * commit your changes
 * push changes to your branch
 * open a pull request
-```
-
-
-#### Tests
-```sh
-$ mocha
 ```
