@@ -4,6 +4,7 @@ node_js:
 master: master
 deploy:
   provider: heroku
+  app: playrest1337
   strategy: git
   api_key:
     secure: Hlr6B2DPgwaf/sgRc+VwTBbdFcWbVgk/VeVLqPuMANmb0hLPY+yeVFFcuNqVe3y11BgdzGULQNEEq3JWYgc1yWf++qOvcdxeE//1wNWfck8+r1hurcRg/ipywv9BBqd6cZzDyyHrLMDhRa8BzeULtGDp0I2kBUEa0tAXOzkWHEhOF213F9zHkLVChvyrC1VZ3xtaOKBfGpCxt9lIMu4Sz3V/oxbtzpA9NykzIMERhWguqT4yhZG/JKbWjQFr4nhKFv9/NdFZDRkouo3glKT8sYXxJecryl5exZCwb6zk4iQMk9KOqFzqyLoT9bbNC6uLCNYtsSaerokvA7CK/78IISBzOvQeYP4lxK0Ri3DYKnXWYnLQtzCzKmRmZw293d+WM7EygD9BWnqgUoMl2qnYyY+rbILF7iH/Ez1YWw7Y/itvG3uZqLyReiiluSO0lo1E5ChKgEhN5DHZctlHEFCBGkDAbDILpyE3I8CK/mkjyFSUl83IFFhc2xGcFxDRfxT7u5/A3iFwah1KWz4RR2yfYg8QPGuWN2/PRXWV9EfL1aJBz1pkz1YyIqCyQxP/pN/CZYPmSCApqLy6yGdgbuOjtloMn8+C3jJ/kqLzWPrz/q2Ldw/x5kTCED+vmGEytmrz9WlS48oSMzYOYOSJZfpnEz0iAYDadnw2qsX+WByj3MQ=
